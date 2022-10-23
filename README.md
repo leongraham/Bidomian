@@ -9,8 +9,11 @@ Conductivity parameters
 Values used from Roberts et  al. (1979):
 
 sigma_int_l =  2.8
+
 sigma_int_t =  0.26
+
 sigma_ext_l =  2.2
+
 sigma_ext_t =  1.3
 
 Domain
@@ -33,5 +36,5 @@ For Beeler-Reuter membrane model, dt=0.001 for stability.
 
 Fibre angle
 
-This is takening into account with matrix rotation, and can be set with the parameter theta.
+This is taking into account with matrix rotation, and can be set with the parameter theta.
 
