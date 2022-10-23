@@ -6,7 +6,7 @@ Setup:
 
 #####Conductivity parameters##### 
 
-Values used from Roberts et  al. (1979):
+Values (mS/cm) used from Roberts et  al. (1979):
 
 sigma_int_l =  2.8
 
@@ -26,17 +26,17 @@ sigma_ext_t =  1.3
 
 #####Membrane capacitance and surface-to-volume ratio#####
 
-Cm=1.0
+Cm=1.0 uF/cm^2
 
-beta=2000
+beta=2000 cm^-1
 
 #####Time-step size#####
 
-For FitzHugh-Nagumo membrane, typically dt=0.01
+For FitzHugh-Nagumo membrane, typically dt=0.01 ms
 
-For Beeler-Reuter membrane model, dt=0.001 for stability.
+For Beeler-Reuter membrane model, dt=0.001 ms for stability.
 
 #####Fibre angle#####
 
-This can be set with the parameter theta.
+This can be set with the parameter theta (degrees).
 
